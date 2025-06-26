@@ -1,3 +1,4 @@
+# setup.py
 from setuptools import setup, find_packages
 
 setup(
@@ -6,7 +7,7 @@ setup(
     author="M2hesh",
     url="https://github.com/M2hesh/Contextual-Insight-Generator",
     description="Colab-friendly clustering wizard with business prompts",
-    packages=find_packages(),            # <— will pick up contextual_insight/
+    packages=find_packages(),            # THIS must find your 'contextual_insight' folder
     install_requires=[
         "pandas",
         "numpy",
